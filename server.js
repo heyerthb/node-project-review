@@ -8,11 +8,11 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.static('./public'));
 
-app.get('/hello', (request, response) => {
+app.get('/hello', (request, response) => { //if you write localhost:3000/hello in browser you see 'Hello
   response.status(200).send('Hello');
 });
 
-app.get('/data', (request, response) => {
+app.get('/data', (request, response) => { //if you write localhost:3000/data in browser you see the object(s) airplaines
   let airplanes = {
     departure: Date.now(),
     canFly: true,

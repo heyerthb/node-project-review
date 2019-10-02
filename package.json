@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/heyerthb/node-project-review/issues"
   },
-  "homepage": "https://github.com/heyerthb/node-project-review#readme"
+  "homepage": "https://github.com/heyerthb/node-project-review#readme",
+  "dependencies": {
+    "heroku": "^7.33.0"
+  }
 }
